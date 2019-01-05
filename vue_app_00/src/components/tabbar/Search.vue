@@ -8,7 +8,7 @@
 <input type="number" name="low" v-model="low" placeholder="价格下限"/>
 </div> 
 <div class="mui-card-header">
-<input type="number" name="high" v-model="high"placeholder="价格上限"/>
+<input type="number" name="high" v-model="high" placeholder="价格上限"/>
 </div>
 <div class="mui-card-header">
  <mt-button type="danger" @click="handleSearch">搜索</mt-button>
